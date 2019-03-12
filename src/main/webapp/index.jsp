@@ -10,17 +10,17 @@
     <div id="parent">
         <div id="formularz">
             <div style="margin: 10px;">
-                <form action="url" method="POST">
+                <form action="harmonogram" method="POST">
                     <div>
                         <h2 style="width: 300px;">Formularza do wyliczania harmonogramu rat kredytu</h2>
                         <h4>Kwota kredytu</h6>
-                        <input type="number" name="kwota" placeholder="Kwota np. 100000" /><br/>
+                        <input type="text" name="kwota" placeholder="Kwota np. 100000" /><br/>
                         <h4>Ilość rat</h4>
-                        <input type="number" name="iloscRat" placeholder="Ilość rat np. 12" /><br/>
+                        <input type="text" name="iloscRat" placeholder="Ilość rat np. 12" /><br/>
                         <h4>Oprocentowanie</h4>
-                        <input type="number" name="oprocentowanie" placeholder="Oprocentowanie np. 3,5" /><br/>
+                        <input type="text" name="oprocentowanie" placeholder="Oprocentowanie np. 3,5" /><br/>
                         <h4>Opłata stała</h4>
-                        <input type="number" name="stala" placeholder="Opłata stała" /><br/>
+                        <input type="text" name="stala" placeholder="Opłata stała" /><br/>
                         <h4>Rodzaj raty</h4>
                         <select name="rodzajRaty">
                             <option value="malejaca">Malejąca</option>
